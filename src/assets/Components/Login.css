@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-color: gray;
+}
+
+.wrapper {
+  width: 420px;
+  border-radius: 10px;
+  height: 310px;
+  padding-top: 10px;
+  padding-bottom: 150px;
+  padding-left: 10px;
+  padding-right: 16px;
+  border: 2px solid black;
+  background-color: coral;
+  margin-top: 10px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .emailBox,
+.passBox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.emailBox input {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  background: none;
+  font-size: 16px;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.passBox input {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  background: none;
+  font-size: 16px;
+  color: white;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.emailBox input::placeholder {
+  color: white;
+}
+.passBox input::placeholder {
+  color: white;
+}
+.wrapper button {
+  width: 40%;
+  height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-left: 115px;
+}
