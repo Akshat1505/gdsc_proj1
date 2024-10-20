@@ -6,31 +6,38 @@
 
 .login-page {
   margin: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "JetBrains Mono", monospace;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-size: cover;
-  background-color: gray;
+  background-size: auto;
+  background-color: #0d1117;
 }
-
+.welcome {
+  position: relative;
+  bottom: 200px;
+  left: 425px;
+  font-size: 30px;
+}
 .wrapper {
   width: 420px;
   border-radius: 10px;
   height: 310px;
+  margin-right: 500px;
   padding-top: 10px;
   padding-bottom: 150px;
   padding-left: 10px;
   padding-right: 16px;
   border: 2px solid black;
-  background-color: coral;
+  background-color: #161b22;
   margin-top: 10px;
 }
 .wrapper h1 {
   font-size: 36px;
   text-align: center;
+  font-weight: bolder;
 }
 .wrapper .emailBox,
 .passBox {
@@ -38,24 +45,27 @@
   width: 100%;
   height: 50px;
   margin: 30px 0;
+  font-family: "JetBrains Mono", monospace;
 }
 .emailBox input {
+  font-family: "JetBrains Mono", monospace;
   width: 100%;
   height: 30px;
   border-radius: 3px;
   background: none;
   font-size: 16px;
   color: white;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 253, 253, 0.3);
 }
 .passBox input {
+  font-family: "JetBrains Mono", monospace;
   width: 100%;
   height: 30px;
   border-radius: 3px;
   background: none;
   font-size: 16px;
   color: white;
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 253, 253, 0.3);
 }
 .emailBox input::placeholder {
   color: white;
@@ -69,4 +79,8 @@
   border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   margin-left: 115px;
+  background-color: #238636;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: bolder;
 }

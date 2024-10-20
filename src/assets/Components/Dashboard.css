@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1d2634;
-  color: #9e9ea4;
+  background-color: #0d1117;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 .window {
@@ -84,7 +84,7 @@ body {
   overflow-y: auto;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  background-color: #263043;
+  background-color: #161b22;
 }
 
 .sidebar-title {
@@ -151,7 +151,7 @@ body {
   border-radius: 5px;
 }
 .card:first-child {
-  background-color: #2962ff;
+  background-color: #ef7a85;
 }
 .card:nth-child(2) {
   background-color: #ff6d00;
