@@ -34,6 +34,7 @@ To deploy this project run
 
 ```bash
     npm i
+    npm i react-router-dom
 ```
 
 - Run the project
