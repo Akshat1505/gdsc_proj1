@@ -1,11 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
-export default {
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom']
-    }
-  }
-}
+export default defineConfig({
+  plugins: [react()],
+  base: "/vite-react-gdsc_proj1",
+});
