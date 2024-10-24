@@ -3,7 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+.forgo-pass {
+  display: flex;
+  position: relative;
+  margin-left: 750px;
+  margin-top: 50vh;
+  align-items: center;
+}
+#light {
+  background-color: antiquewhite;
+}
+#dark {
+  background-color: #0d1117;
+}
 
+.backlogin {
+  margin-top: 15px;
+}
+.backlogin:hover {
+  cursor: pointer;
+}
+.forgo-pass {
+  font-size: 30px;
+  margin-left: 820px;
+}
+.forgo-form input {
+  margin-left: 800px;
+  font-family: "JetBrains Mono", monospace;
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  background: none;
+  font-size: 16px;
+  color: white;
+  border: 2px solid rgba(255, 253, 253, 0.3);
+}
+.forgo-form button {
+  margin-left: 920px;
+  height: 40px;
+  width: 75px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+  background-color: #238636;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: bolder;
+}
+.forgo-form button:hover {
+  cursor: pointer;
+}
+.forgo-login {
+  margin-bottom: 15px;
+}
+.forgo-login:hover {
+  cursor: pointer;
+}
 .login-page {
   margin: 0;
   font-family: "JetBrains Mono", monospace;
@@ -47,6 +102,13 @@
   margin: 30px 0;
   font-family: "JetBrains Mono", monospace;
 }
+.emailBox {
+  margin-bottom: 0;
+  max-height: 30px;
+}
+.passBox {
+  margin: 0;
+}
 .emailBox input {
   font-family: "JetBrains Mono", monospace;
   width: 100%;
@@ -74,6 +136,7 @@
   color: white;
 }
 .wrapper button {
+  margin-top: 20px;
   width: 40%;
   height: 40px;
   border: 2px solid rgba(0, 0, 0, 0.4);
@@ -83,4 +146,34 @@
   color: white;
   font-family: "JetBrains Mono", monospace;
   font-weight: bolder;
+}
+.wrapper button:hover {
+  background-color: #168b66;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1351px) {
+  .welcome {
+    margin: 0;
+    padding: 0;
+    left: 0;
+  }
+  .wrapper {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 450px;
+  }
+  .wrapper form {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .welcome {
+    margin-left: 100px;
+    padding: 0;
+    width: 100%;
+  }
 }
