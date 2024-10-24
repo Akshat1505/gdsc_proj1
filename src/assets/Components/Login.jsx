@@ -1,19 +1,10 @@
-import React, { createContext, useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase/firebase";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
-import Theme from "./Theme";
-
-export const ThemeContext = createContext(null);
 
 const Login = () => {
   let navigate = useNavigate();
-
-  const [theme, setTheme] = useState("light");
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -47,11 +38,6 @@ const Login = () => {
           </span>
           <button>Login</button>
         </form>
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
-          <div className="theme" id={theme}>
-            <Theme />
-          </div>
-        </ThemeContext.Provider>
       </div>
     </div>
   );
