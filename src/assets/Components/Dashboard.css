@@ -39,10 +39,28 @@ body {
   line-height: 1px;
   font-size: 50px;
 }
+.icon-1 {
+  margin: 5px;
+  font-size: 25px;
+}
+.icon-1:hover {
+  cursor: pointer;
+}
 .sidebar-brand {
   margin-left: 0;
 }
 /*SIdebar*/
+@media screen and (max-width: 2000px) {
+  .charts > h2 {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .charts-real > img {
+    height: 160px;
+
+    width: 400px;
+  }
+}
 @media screen and (max-width: 768px) {
   .main-cards {
     grid-template-columns: 1fr;
@@ -51,12 +69,23 @@ body {
   }
   .charts {
     grid-template-columns: 1fr;
-    margin-top: 30px;
+  }
+  .charts-real {
+    margin-right: 80px;
+    margin-top: 100px;
+  }
+  .charts > h2 {
+    display: flex;
+    max-height: 40px;
   }
 }
 @media screen and (max-width: 576px) {
   .header-left {
     display: none;
+  }
+  .charts-real {
+    max-height: 400px;
+    max-width: 400pxs;
   }
 }
 
@@ -119,12 +148,7 @@ body {
 
   z-index: 15 !important;
 }
-.icon_close {
-  color: rgb(202, 14, 14);
-  margin-left: 20px;
-  margin-right: 10px;
-  cursor: pointer;
-}
+
 /*HOME*/
 
 .main-container {
