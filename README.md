@@ -29,6 +29,11 @@ To deploy this project run
 ```bash
   git clone https://github.com/Akshat1505/gdsc_proj1.git
 ```
+- Go to the Relevant Directory
+
+```bash
+  cd ./gdsc_proj1
+```
 
 - Install The Neccesary Dependencies
 
