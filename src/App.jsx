@@ -6,7 +6,7 @@ import ForgotPassword from "./assets/Components/ForgotPassword";
 
 function App() {
   return (
-    <Router basename="/vite-react-gdsc_proj1">
+    <Router>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
