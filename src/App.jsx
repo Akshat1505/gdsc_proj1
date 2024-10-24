@@ -6,7 +6,7 @@ import ForgotPassword from "./assets/Components/ForgotPassword";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
