@@ -92,7 +92,7 @@ const Home = () => {
         </div>
         <div className="card">
           <div className="card-in">
-            <h3>CATOGORIES</h3>
+            <h3>CATOEGORIES</h3>
             <BsFillGrid3X3GapFill className="card_icon" />
           </div>
           <h1>12</h1>
