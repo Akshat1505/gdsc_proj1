@@ -35,7 +35,7 @@ const Sidebar = ({ OpenSideBarToggle, OpenSideBar }) => {
         </li>
         <li className="sidebar-list-item">
           <a href="">
-            <BsFillGrid3X3GapFill className="icon" /> Catogery
+            <BsFillGrid3X3GapFill className="icon" /> Category
           </a>
         </li>
         <li className="sidebar-list-item">
