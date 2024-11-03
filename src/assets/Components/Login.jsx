@@ -15,7 +15,7 @@ const Login = () => {
       console.log(resp);
       navigate("/dashboard");
     } catch (error) {
-      console.log(error);
+      alert("Incorrect! Username/Password")
     }
   };
   const handleReset = () => {
